@@ -5,9 +5,10 @@ const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 
 var engine, world;
-var particles;
+var particles = [];
 var plinkos = [];
 var divisions =[];
+//var particles
 
 var divisionHeight = 300;
 var score = 0;
@@ -80,5 +81,5 @@ function draw() {
      
      divisions[k].display();
    }
-   drawSprites();
+   //drawSprites();
 }
